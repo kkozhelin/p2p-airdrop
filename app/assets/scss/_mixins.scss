@@ -1,0 +1,61 @@
+@use 'variables' as *;
+
+@mixin glass-card {
+    background: $color-surface-card;
+    backdrop-filter: blur(2.4rem);
+    -webkit-backdrop-filter: blur(2.4rem);
+    border: 1px solid $color-border-subtle;
+    box-shadow: $shadow-glass;
+    transition: all $transition-normal;
+
+    &:hover {
+        background: $color-surface-hover;
+        border-color: rgba(255, 255, 255, 0.15);
+    }
+}
+
+@mixin flex-center($direction: row, $gap: 0) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+    @if $gap != 0 {
+        gap: $gap;
+    }
+}
+
+@mixin flex-between($align: center, $gap: 0) {
+    display: flex;
+    align-items: $align;
+    justify-content: space-between;
+    @if $gap != 0 {
+        gap: $gap;
+    }
+}
+
+@mixin text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin pulse-status {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .pulse-ring {
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+        background: $color-accent-cyan;
+        border-radius: 50%;
+        box-shadow: 0 0 1rem $color-accent-cyan;
+        animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .status-text {
+        font-size: 1.3rem;
+        color: $color-text-secondary;
+    }
+}

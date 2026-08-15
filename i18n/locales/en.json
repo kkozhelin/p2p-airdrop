@@ -1,0 +1,163 @@
+{
+    "app": {
+        "title": "AirDrop P2P",
+        "subtitle": "Instant & encrypted file sharing between any devices",
+        "status_online": "Online",
+        "status_connecting": "Connecting...",
+        "switch_language": "Language"
+    },
+    "hero": {
+        "title": "AirDrop P2P — Direct File Sharing",
+        "subtitle": "Instant P2P file transfer with no servers, no registration, and no size limits"
+    },
+    "nav": {
+        "home": "Home",
+        "security": "Security",
+        "donate": "Donate",
+        "github": "GitHub"
+    },
+    "footer": {
+        "security_badge": "🔒 End-to-End Encrypted P2P",
+        "github_link": "GitHub kkozhelin",
+        "donate_btn": "💖 Support project",
+        "copyright": "© 2026 AirDrop P2P • Nuxt 3 & Vercel Nitro"
+    },
+    "radar": {
+        "title": "P2P Radar",
+        "status": "Local P2P radar active",
+        "status_scanning": "Scanning...",
+        "status_ready": "Ready",
+        "tagline": "Direct device-to-device transfer without servers"
+    },
+    "dropzone": {
+        "title": "Drag & drop files here",
+        "subtitle": "or click to select from your device",
+        "hint": "No file size limits (P2P streaming)",
+        "button_select": "Select Files",
+        "selected_files": "Selected files ({count})",
+        "large_file_warning": "⚠️ Files >2 GB may fail on devices with low RAM"
+    },
+    "selected_files": {
+        "clear_all": "Clear all"
+    },
+    "pairing": {
+        "title": "Pair Device",
+        "subtitle": "Select desired action: send PIN or enter it to receive",
+        "mode_sender": "📤 Sender",
+        "mode_receiver": "📥 Receiver",
+        "hint_select_files": "💡 Add files first",
+        "hint_files_ready": "✨ Files ready. Click the button below",
+        "your_code": "Your PIN code",
+        "copy_btn": "Copy",
+        "generate_pin": "🎲 Generate Session PIN",
+        "or_divider": "OR",
+        "receiver_label": "Enter receiver's 6-digit PIN",
+        "connect_btn": "🔗 Connect",
+        "connecting": "Connecting..."
+    },
+    "host_waiting": {
+        "title": "Your Session PIN",
+        "subtitle": "Share this 6-digit code with the recipient to establish a direct P2P connection",
+        "code_copied": "Copied! ✓",
+        "timer_label": "Valid for another",
+        "status_waiting": "Waiting for receiver to connect...",
+        "status_connecting": "Establishing direct P2P channel...",
+        "status_connected": "Receiver connected! Click button below to send",
+        "connected_title": "Device Connected!",
+        "ready_to_send": "Ready to send",
+        "files_label": "files",
+        "approval_title": "Waiting for approval...",
+        "approval_subtitle": "Request sent to recipient device.",
+        "transferring_title": "Transferring {count} files",
+        "approval_waiting": "Waiting for 'Accept' on second device",
+        "approval_considering": "Recipient is considering request...",
+        "status_transferring": "File transfer in progress...",
+        "status_declined": "Receiver declined file transfer",
+        "status_disconnected": "Connection closed by receiver",
+        "files_selected": "Selected {count} files ({size})",
+        "cancel_btn": "Cancel",
+        "send_btn": "🚀 Send {count} files ({size})"
+    },
+    "peer_waiting": {
+        "title": "Incoming File Request",
+        "subtitle": "Someone wants to send you {count} files ({size})",
+        "connected_title": "Connected to Sender!",
+        "connected_subtitle": "Direct P2P channel successfully established.",
+        "waiting_for_files": "Waiting for sender to choose files...",
+        "disconnect_btn": "Disconnect",
+        "status_connecting": "Connecting to sender...",
+        "status_disconnected": "Connection closed by sender",
+        "decline_btn": "🛑 Decline",
+        "accept_btn": "💚 Accept and download"
+    },
+    "received_files": {
+        "title": "Transfer Completed! 🎉",
+        "subtitle": "All files in the package received successfully",
+        "package_title": "Download files from package:",
+        "single_title": "Content:",
+        "download_btn": "Download",
+        "close_btn": "Finish and close"
+    },
+    "transfer_progress": {
+        "sending": "Sending file: {name}",
+        "receiving": "Receiving file: {name}",
+        "speed": "Speed: {speed} Mbps",
+        "completed": "Transfer completed successfully!"
+    },
+    "donate": {
+        "title": "Support Project",
+        "subtitle": "AirDrop P2P is a free open-source project.",
+        "boosty_btn": "Support via Boosty",
+        "notice": "✨ Your support is a voluntary contribution to project development and hosting. Thank you for your contribution!",
+        "close_btn": "Close"
+    },
+    "security_page": {
+        "badge": "🔒 SECURITY & PRIVACY",
+        "hero_title": "How AirDrop P2P End-to-End Encryption Works",
+        "hero_subtitle": "Your files are transferred directly device-to-device (Browser-to-Browser). No servers, cloud storages, or third parties ever access your data.",
+        "pillar1_title": "DTLS-AES 256 Encryption",
+        "pillar1_desc": "All data is encrypted directly in your browser using DTLS (Datagram Transport Layer Security). Neither ISPs nor website owners can read your data stream.",
+        "pillar2_title": "Direct P2P Stream",
+        "pillar2_desc": "Files are never uploaded to any intermediate servers. They are chunked in RAM and assembled directly in receiver's RAM via WebRTC.",
+        "pillar3_title": "No File Size Limits",
+        "pillar3_desc": "Transfer files of any size — 1 GB, 10 GB, 50 GB and more! You are not restricted by messenger limits (Telegram 2 GB, email 25 MB) or cloud limits.",
+        "pillar4_title": "100% Anonymity",
+        "pillar4_desc": "No registration, emails, phone numbers, or passwords required. Once room session ends, temporary signal metadata is destroyed forever.",
+        "comparison_title": "File Transfer Comparison",
+        "th_param": "Parameter",
+        "th_p2p": "⚡ AirDrop P2P",
+        "th_cloud": "☁️ Cloud Storage",
+        "th_messenger": "💬 Messengers",
+        "row1_param": "Server Storage",
+        "row1_p2p": "❌ NO",
+        "row1_cloud": "⚠️ Yes (Stored on servers)",
+        "row1_messenger": "⚠️ Yes (Stored in cloud)",
+        "row2_param": "End-to-End Encryption (E2EE)",
+        "row2_p2p": "✅ Mandatory (DTLS)",
+        "row2_cloud": "❌ Optional / No",
+        "row2_messenger": "⚠️ Secret chats only",
+        "row3_param": "Size Restrictions",
+        "row3_p2p": "♾️ Unlimited",
+        "row3_cloud": "⚠️ Limited by subscription",
+        "row3_messenger": "⚠️ 2 GB limit",
+        "row4_param": "Registration Required",
+        "row4_p2p": "❌ NO",
+        "row4_cloud": "⚠️ Yes (Google/Yandex account)",
+        "row4_messenger": "⚠️ Yes (Phone number)",
+        "row5_param": "Transfer Speed",
+        "row5_p2p": "🚀 Max P2P Speed",
+        "row5_cloud": "⚠️ Server throttled",
+        "row5_messenger": "⚠️ Server throttled",
+        "cta_title": "Ready to transfer files securely?",
+        "cta_subtitle": "Generate a PIN code and send it to the receiver in 1 click",
+        "cta_btn": "⚡ Start Transferring Files"
+    },
+    "seo": {
+        "title": "AirDrop P2P • Instant File Sharing",
+        "description": "Free service for instant AirDrop files between devices. Fast, secure, and without file size limits",
+        "index_title": "AirDrop P2P • Instant File Sharing",
+        "index_description": "Free service for instant AirDrop files between devices. Fast, secure, and without file size limits",
+        "security_title": "Security & P2P Encryption • AirDrop P2P",
+        "security_description": "Learn how AirDrop P2P protects your files with DTLS-AES 256 end-to-end encryption without saving anything on servers."
+    }
+}
